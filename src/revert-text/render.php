@@ -1,6 +1,5 @@
 <?php
 
-// Sortie sécurisée des attributs
 $content = $attributes['content'] ?? 'Hello World';
 $backgroundColor = $attributes['backgroundColor'] ?? 'transparent';
 $borderColor = $attributes['borderColor'] ?? 'transparent';
@@ -47,3 +46,4 @@ $unique_id = 'simpli-block-' . uniqid();
             }
         });
     });
+</script>
