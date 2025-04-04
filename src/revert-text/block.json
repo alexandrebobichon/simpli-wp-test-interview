@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "simpli/reverse-text-block",
+    "version": "1.0.0",
+    "title": "Bloc Texte Inversé",
+    "category": "text",
+    "icon": "smiley",
+    "description": "Un bloc qui inverse le texte lorsqu'on clique dessus",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "content": {
+            "type": "string",
+            "default": "Hello World"
+        },
+        "backgroundColor": {
+            "type": "string"
+        },
+        "borderColor": {
+            "type": "string"
+        }
+    },
+    "textdomain": "simpli-block",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "render": "file:./render.php"
+}

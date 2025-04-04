@@ -21,5 +21,5 @@
  */
  
 /* eslint-disable no-console */
-console.log("Hello World! (from smp-demo block)");
+console.log("Hello World! (from revert-bloc-revert-text block)");
 /* eslint-enable no-console */
