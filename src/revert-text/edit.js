@@ -14,7 +14,7 @@ export default function Edit({ attributes, setAttributes }) {
         padding: '20px',
     };
 
-    return (
+    return ( 
         <>
             <InspectorControls>
                 <PanelBody title={__('Paramètres du style', 'simpli-block')}>
